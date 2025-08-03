@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rakhi Celebration - Brother & Sister Bond</title>
+    <style>
+        body {
+            margin: 0;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background-color: #fff0f5;
+            color: #333;
+            scroll-behavior: smooth;
+        }
+
+        header {
+            background-color: #b83280;
+            color: white;
+            padding: 30px 20px;
+            text-align: center;
+            animation: slideDown 1s ease-in-out;
+        }
+
+        nav {
+            background-color: #e75480;
+            display: flex;
+            justify-content: center;
+            gap: 20px;
+            padding: 10px 0;
+            animation: fadeIn 2s ease-in-out;
+        }
+
+        nav a {
+            color: white;
+            text-decoration: none;
+            font-weight: bold;
+            transition: color 0.3s;
+        }
+
+        nav a:hover {
+            color: #ffccff;
+        }
+
+        section {
+            padding: 40px 20px;
+            text-align: center;
+            animation: fadeInUp 2s ease;
+        }
+
+        .gallery {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 20px;
+            justify-content: center;
+            animation: fadeInUp 2s ease;
+        }
+
+        .gallery img {
+            width: 300px;
+            height: 200px;
+            object-fit: cover;
+            border-radius: 10px;
+            box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+            transition: transform 0.3s ease, box-shadow 0.3s ease;
+        }
+
+        .gallery img:hover {
+            transform: scale(1.05);
+            box-shadow: 0 8px 20px rgba(0, 0, 0, 0.3);
+        }
+
+        footer {
+            background-color: #800080;
+            color: white;
+            padding: 20px;
+            text-align: center;
+            position: relative;
+        }
+
+        footer::after {
+            content: "Powered by VTUGuruProjects";
+            position: absolute;
+            bottom: 10px;
+            left: 50%;
+            transform: translateX(-50%);
+            font-size: 14px;
+            opacity: 0.8;
+            pointer-events: none;
+            user-select: none;
+        }
+
+        @keyframes fadeIn {
+            0% { opacity: 0; }
+            100% { opacity: 1; }
+        }
+
+        @keyframes fadeInUp {
+            0% { opacity: 0; transform: translateY(30px); }
+            100% { opacity: 1; transform: translateY(0); }
+        }
+
+        @keyframes slideDown {
+            0% { transform: translateY(-100%); opacity: 0; }
+            100% { transform: translateY(0); opacity: 1; }
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <h1>Rakhi Celebration</h1>
+        <p>Celebrating the Eternal Bond of Love Between Brother & Sister</p>
+    </header>
+
+    <nav>
+        <a href="#about">Request from Brother</a>
+        <a href="#gallery">Gallery</a>
+        <a href="#contact">Contact Brother</a>
+    </nav>
+
+    <section id="about">
+        <h2>Request from Brother</h2>
+        <p>Hey Sister,</p>
+        <p>I am your brother who always protects you in difficult situations. I love to irritate you (just for fun), but my love and respect toward you is infinite.</p>
+        <p>I may not have too much money to gift you fancy things, but whatever I give you, please accept it with love — it comes from my heart. ❤️</p>
+    </section>
+
+    <section id="gallery">
+        <h2>Festival Gallery</h2>
+        <div class="gallery">
+            <img src="https://images.pexels.com/photos/9633840/pexels-photo-9633840.jpeg" alt="Brother and Sister">
+            <img src="https://images.pexels.com/photos/7686386/pexels-photo-7686386.jpeg" alt="Enjoying Rakhi">
+            <img src="https://images.pexels.com/photos/8819079/pexels-photo-8819079.jpeg" alt="Gift Exchange">
+            <img src="https://images.pexels.com/photos/8819771/pexels-photo-8819771.jpeg" alt="Indian Sweets">
+            <img src="https://images.pexels.com/photos/8148149/pexels-photo-8148149.jpeg" alt="Rakhi Thali">
+            <img src="https://images.pexels.com/photos/8819423/pexels-photo-8819423.jpeg" alt="Family Celebrating">
+        </div>
+    </section>
+
+    <section id="contact">
+        <h2>Contact Brother</h2>
+        <p><strong>Brother's Name:</strong> VTU Guru</p>
+        <p><strong>Contact No:</strong> 8197455297</p>
+        <p><strong>Email:</strong> vtuguruofficial@gmail.com</p>
+    </section>
+
+    <footer>
+        <p>&copy; 2025 Rakhi Celebration. Made with ❤️ to honor siblings.</p>
+    </footer>
+</body>
+
+</html>
